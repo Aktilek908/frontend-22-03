@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            .wrapper > div {
+                display: flex;
+                flex-direction: column;
+            }
+            input {
+                padding: 10px 20px;
+            }
+            label {
+                font-size: 20px;
+            }
+            select {
+                font-size: 20px;
+                text-transform: capitalize;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="som">
+                <label for="som"> Som </label>
+                <input type="number" id="som" />
+            </div>
+            <div class="converted">
+                <select></select>
+                <label for="" id="label-converted"></label>
+                <input type="number" id="value-converted" />
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
